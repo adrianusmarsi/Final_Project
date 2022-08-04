@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>LEARN.Code</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top" style="background-color: #1d3557">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/mylogo.png" alt="logo" class="w-25" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #1d3557">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/img/mylogo.png" alt="logo" class="w-50" /></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body main-nav" style="background-color: #1d3557">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown main-dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                <ul class="dropdown-menu" style="background-color: #1d3557">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Batas Navbar/Header -->
+
+    <!-- Untuk Jumbotron -->
+    <section class="main-merah main-judul-atas">
+      <div class="container">
+        <div class="row py-5">
+          <!-- Sebelah Kiri -->
+          <div class="col-lg-6 text-center align-self-center">
+            <div>
+              <h2>Capai Skill <span>Terbaikmu</span> Dengan <span>Materi</span> Kami</h2>
+              <p>Materi kami sangat mudah dipahami bahkan oleh pemula sekalipun, Tunggu apa lagi?</p>
+              <a href="" class="btn btn-danger">Let's Go</a>
+            </div>
+          </div>
+
+          <!-- Sebelah Kanan -->
+          <div class="col-lg-6">
+            <div class="py-5">
+              <img src="assets/img/welcome.png" class="px-4 py-4 w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Batas Akhir -->
+
+    <!-- Untuk Tulisan Terbaru -->
+    <section id="blog" class="main-grey">
+      <div class="container py-5">
+        <h2 class="main-judul text-center">Tulisan Terbaru</h2>
+        <p class="text-center">Disini adalah beberapa tulisan blog terbaru dari beberapa Tutor dan Peserta Didik di Website ini</p>
+        <div class="row text-start">
+          <!-- Kolom 1-->
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 shadow-md w-100">
+              <img src="assets/img/c++.png" class="card-img-top" alt="Penjelasan Dari Thumbnail" />
+              <div class="card-body">
+                <h5 class="card-title"><a href="page1.html">Apa Itu Bahasa Pemrograman C++ ?</a></h5>
+                <p class="card-text">
+                  Bahasa Pemrograman C++ adalah bahasa pemrograman komputer yang bisa dipakai untuk membuat berbagai aplikasi (general-purpose programming language), dan merupakan pengembangan dari
+                  bahasa pemrograman C.
+                </p>
+              </div>
+              <div class="card-body main-blog-info">
+                <a href=""><img src="assets/img/nia.jpeg" /></a>
+                <a href="" class="main-blog-author">Nia Naniati</a><br />
+                <span>15 Juli, 2022</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom 2-->
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 shadow-md w-100">
+              <img src="assets/img/HTML.png" class="card-img-top" alt="Penjelasan Dari Thumbnail" />
+              <div class="card-body">
+                <h5 class="card-title"><a href="page2.html"> Bahasa Pemrograman HTML</a></h5>
+                <p class="card-text">
+                  HTML adalah bahasa standar pemrogaman yang digunakan untuk membuat halaman website, yang diakses melalui internet. Singkatan dari "Hypertext Markup Language" atau "bahasa markup".
+                </p>
+              </div>
+              <div class="card-body main-blog-info">
+                <a href=""><img src="assets/img/putri.png" /></a>
+                <a href="" class="main-blog-author">Dwy Andika Putri</a><br />
+                <span>20 Juli, 2022</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom 3-->
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 shadow-md w-100">
+              <img src="assets/img/Java.png" class="card-img-top" alt="Penjelasan Dari Thumbnail" />
+              <div class="card-body">
+                <h5 class="card-title"><a href="page3.html"> Apa Sih Bahasa Pemrograman Java Itu? </a></h5>
+                <p class="card-text">
+                  Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam. Bahasa ini awalnya dibuat oleh James Gosling saat masih bergabung di Sun
+                  Microsystems saat ini merupakan bagian dari Oracle dan dirilis tahun 1995.
+                </p>
+              </div>
+              <div class="card-body main-blog-info">
+                <a href=""><img src="assets/img/adri.jpg" /></a>
+                <a href="" class="main-blog-author">Adrianus Marsi Lanur</a><br />
+                <span>5 Juli, 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Batas Tulisan Terbaru -->
+
+    <!-- Untuk Footer -->
+    <footer>
+      <div class="main-footer-menu main-footer py-5" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 mb-3">
+              <div class="mb-3">
+                <a href="index.html"><img src="assets/img/mylogo.png" class="w-75" /></a>
+              </div>
+              <p>Terima Kasih Sudah Berkunjung. Jika ada masalah silahkan Hubungi Kami</p>
+              <p>Designed & Developed With &hearts;</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+              <h3>Adrianus Marsi Lanur</h3>
+              <ul>
+                <li class="text-white">NIM : <a href="">232010081</a></li>
+                <li class="text-white">Email : <a href="">adrianusmarsi@gmail.com</a></li>
+                <li class="text-white">Instagram : <a href="">the_constelation</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 mb-3">
+              <h3>Nia Naniati</h3>
+              <ul>
+                <li class="text-white">NIM : <a href="">232010103</a></li>
+                <li class="text-white">Email : <a href="">niananiati@gmail.com</a></li>
+                <li class="text-white">Instagram : <a href="">nia_a4</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 mb-3 text-white">
+              <h3>Dwi Andika Putri</h3>
+              <ul>
+                <li class="text-white">NIM : <a href="">232010047</a></li>
+                <li class="text-white">Email : <a href="">dwyandikaputri@gmail.com</a></li>
+                <li class="text-white">Instagram : <a href="">dwyandika_putri</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-5 main-footer-copyright">Copyright &copy; 2022 Kelompok Adrianus</div>
+    </footer>
+    <!-- Batas Footer -->
+
+    <!-- Untuk Memanggil File Bootsrap Js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Untuk Memanggil File JQuery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

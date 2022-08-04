@@ -1,0 +1,188 @@
+/* untuk Header */
+.main-nav {
+  background-color: #2b2d42;
+}
+
+.main-nav .navbar-nav a.nav-link {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.main-nav .nav-item .nav-link.active,
+.main-nav .nav-item .nav-link:hover,
+.main-nav .nav-item .dropdown-item:hover {
+  color: #d90429;
+}
+
+.navbar.scrolled {
+  background-color: #ffffff;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px #666;
+}
+
+.navbar.scrolled a.nav-link {
+  color: #666;
+}
+
+.navbar img.main-logo {
+  max-width: 250px;
+}
+
+.navbar.navbar.scrolled img.main-logo-putih {
+  display: none;
+}
+
+/* Untuk Global */
+.main-merah {
+  background-color: #8d99ae;
+}
+
+.main-merah h2 span {
+  color: #d90429;
+}
+.main-merah h2 {
+  color: #edf2f4;
+}
+.main-merah p {
+  color: #edf2f4;
+}
+
+.btn-danger {
+  background-color: #d90429;
+}
+
+h2.main-judul::after {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-bottom: 10px solid #2b2d42;
+  width: 200px;
+  border-radius: 10px;
+  content: "";
+}
+
+.main-grey {
+  background-color: #edf2f4;
+}
+.main-judul-atas {
+  color: #457b9d;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+a:hover {
+  transition: color 0.5s ease;
+}
+
+.btn-pelajari {
+  background-color: #3a86ff;
+}
+
+/* Bagian Kolaborasi */
+#main-kolaborasi img {
+  max-height: 50px;
+  max-width: 150px;
+}
+
+#main-kolaborasi a {
+  display: inline-block;
+  word-spacing: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Bagian Blog */
+.main-blog-info img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.main-blog-info {
+  color: #666;
+  position: relative;
+}
+
+.main-blog-info a {
+  padding-right: 15px;
+  color: #666;
+  text-decoration: none;
+}
+
+.main-blog-info a:hover {
+  color: #ffbe0b;
+}
+
+#blog .main-blog-info span {
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+#blog a {
+  text-decoration: none;
+  color: #666;
+}
+
+#blog a:hover {
+  color: #ef476f;
+}
+
+#blog-detail .main-blog-info img {
+  float: none;
+}
+#blog-detail .main-blog-info span::before {
+  content: "";
+  top: 0px;
+  margin-bottom: 3px;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: #ccc;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+
+.main-tulisan-lain h4 a {
+  color: #666;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #000816;
+}
+
+.main-footer p {
+  color: #ffffff;
+}
+.main-footer-menu h3 {
+  color: #d90429;
+  margin-bottom: 15px;
+}
+
+.main-footer-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-footer-menu a:hover {
+  color: #ffbe0b;
+}
+
+.main-footer-menu ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.main-footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.main-footer-copyright {
+  background-color: #231942;
+  color: #ffffff;
+}
